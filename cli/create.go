@@ -13,6 +13,7 @@ func createCommand(t *core.Timetrace) *cobra.Command {
 	create := &cobra.Command{
 		Use:   "create",
 		Short: "Create a new resource",
+		Long:  "test test test test i am hoping not to see this command",
 		Run: func(cmd *cobra.Command, args []string) {
 			_ = cmd.Help()
 		},
